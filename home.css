@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+}
+
+header {
+ background: pink; 
+}
+
+header h1 {
+  text-align: center;
+}
+
+main {
+  background: lime;
+}
+
+section {
+  background: skyblue;
+  width: 80%;
+  margin: 0 auto;
+}
+
+section h3 {
+  text-align: center;
+
+}
+
+img {
+  background: red;
+  width: 320px;
+  height: 320px;
+  /* margin: 0 auto; */
+}
+
+footer {
+  background: black;
+  color: white;
+}
+
+footer p {
+  text-align: center;
+}
