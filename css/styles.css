@@ -9,9 +9,18 @@ body {
   width: 100%;
 }
 
+header {
+  background: pink;
+}
+
+li {
+  /* font-size: 12px; */
+  margin-bottom: 16px;
+}
+
 div {
   background: rgb(100, 202, 100);
-  width: 80%;
+  width: 96%;
   margin: 0 auto;
   /* line-height: 12px; */
   /* padding: 24, 0, 0, 24px; */
@@ -21,10 +30,18 @@ h1 {
   text-align: center;
 }
 
+.cards {
+  margin-top: 120px;
+}
+
+.cards p {
+  /* font-size: 12px; */
+}
+
 h2 {
   text-align: center;
 }
 
 img {
-  width: 600px;
+  width: 100%;
 }
