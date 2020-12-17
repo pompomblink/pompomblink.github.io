@@ -1,12 +1,16 @@
-body {
-  /* margin: 0; */
+a {
+  text-decoration: none;
 }
 
 /* --------------------------------------------------------------------------------------------------
 ヘッダー用のスタイル
 -------------------------------------------------------------------------------------------------- */
 header {
- background: pink; 
+ /* background: pink;  */
+}
+
+header a {
+  text-decoration: none;
 }
 
 header h1 {
@@ -21,22 +25,29 @@ header p {
 メインコンテンツ用のスタイル
 -------------------------------------------------------------------------------------------------- */
 main {
-  background: lime;
+  /* background: lime; */
+  margin-top: 160px;
 }
 
 /* ↓更新履歴のボックス------------------------------- */
 .update {
-  background: chocolate;
+  /* background: chocolate; */
   width: 96%;
-  margin: 0 auto;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 160px;
 }
 
 .update h2 {
   text-align: center;
 }
 
+.update a {
+  color: white;
+}
+
 .topic {
-  background: rgb(170, 170, 170);
+  background: #444444;
   margin-bottom: 80px;
   border-radius: 32px;
 }
@@ -48,35 +59,53 @@ main {
 .topic img {
   background: gray;
   width: 100%;
-  height: 200px;
+  height: 320px;
+  border-radius: 32px;
+  object-fit: cover;
 }
 
 /* ↓about系のボックス------------------------------- */
 section {
-  background: skyblue;
+  /* background: skyblue; */
   width: 96%;
-  margin: 0 auto;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 80px;
+  border: 1px solid black;
+  border-radius: 32px;
 }
 
 section h3 {
   text-align: center;
 }
 
-.icon {
+section p {
+  margin: 0 16px 0 16px;
+}
+
+/* .icon {
   background: red;
   width: 320px;
   height: 320px;
-  /* margin: 0 auto; */
-}
+} */
 
 /* --------------------------------------------------------------------------------------------------
 フッター用のスタイル
 -------------------------------------------------------------------------------------------------- */
-footer {
-  background: black;
-  color: white;
+footer p {
+  margin: 0;
 }
 
-footer p {
+.top {
+  background: gray;
+  font-size: 64px;
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.bottom {
+  background: black;
+  color: white;
   text-align: center;
 }
