@@ -6,16 +6,25 @@ a {
 ヘッダー用のスタイル
 -------------------------------------------------------------------------------------------------- */
 header {
-  /* background: pink; */
-}
-
-header a {
-  text-decoration: none;
-}
-
-header p {
-  text-align: center;
-}
+  /* background: pink;  */
+ }
+ 
+ header a {
+   text-decoration: none;
+   /* color: white; */
+ }
+ 
+ header h1 {
+   text-align: center;
+   font-family: 'Hachi Maru Pop', cursive;
+ }
+ 
+ 
+ header p {
+   margin: 0px,16px, 0px, 16px;
+   text-align: center;
+   font-family: 'Hachi Maru Pop', cursive;
+ }
 
 /* --------------------------------------------------------------------------------------------------
 メインコンテンツ用のスタイル
