@@ -122,6 +122,12 @@ footer p {
     margin-bottom: 160px;
   }
 
+  img {
+    max-height: 400px;
+    margin: 0 auto;
+    object-fit: contain;
+  }
+
   .flex{
     /* background: pink; */
     display: flex;
